@@ -55,6 +55,7 @@
     _mainView = [[MainView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     [self.view addSubview:_mainView];
     self.view.layer.masksToBounds = YES;
+    
 }
 
 - (void)addGradientlayer:(UIView *)view {
