@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042C017722682988003B4D39 /* MainSelectCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C017622682988003B4D39 /* MainSelectCoverView.m */; };
+		0432185E22B0CA57008C0E74 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0432185D22B0CA57008C0E74 /* README.md */; };
 		0455F8D72266CFFD0048C006 /* MainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F8D62266CFFD0048C006 /* MainFlowLayout.m */; };
 		047F521D226EAF6800663A50 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F521C226EAF6800663A50 /* CustomButton.m */; };
 		04C855772265A8D2001AF470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C855762265A8D2001AF470 /* AppDelegate.m */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		042C017522682988003B4D39 /* MainSelectCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainSelectCoverView.h; sourceTree = "<group>"; };
 		042C017622682988003B4D39 /* MainSelectCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainSelectCoverView.m; sourceTree = "<group>"; };
+		0432185D22B0CA57008C0E74 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0455F8D52266CFFD0048C006 /* MainFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFlowLayout.h; sourceTree = "<group>"; };
 		0455F8D62266CFFD0048C006 /* MainFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainFlowLayout.m; sourceTree = "<group>"; };
 		047F521B226EAF6800663A50 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		04C855742265A8D2001AF470 /* HexagonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0432185D22B0CA57008C0E74 /* README.md */,
 				04EEABA522705E97007F0F61 /* CoverView */,
 				04EEABA322705E3E007F0F61 /* MainVC */,
 				04EEABA222705E2F007F0F61 /* MainView */,
@@ -357,6 +360,7 @@
 			files = (
 				04C855822265A8D5001AF470 /* LaunchScreen.storyboard in Resources */,
 				04C8557F2265A8D5001AF470 /* Assets.xcassets in Resources */,
+				0432185E22B0CA57008C0E74 /* README.md in Resources */,
 				04C8557D2265A8D2001AF470 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
