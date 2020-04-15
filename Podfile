@@ -1,3 +1,6 @@
+source 'ssh://git@oa.yolanda.hk:22022/ios/QNSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -8,6 +11,13 @@ target 'HexagonDemo' do
   # Pods for HexagonDemo
 
 #pod 'Reveal-SDK', '~> 10'
+pod 'QNModuleGroup', '0.3.9.bate.2',:subspecs => ['Fitbit']
+pod 'Firebase/Messaging'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+
+pod 'ReactiveObjC', '~> 3.1.0'
+pod 'PromisesObjC'
 
   target 'HexagonDemoTests' do
     inherit! :search_paths

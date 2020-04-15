@@ -1,0 +1,11 @@
+rule-configurations:
+  - key: LONG_LINE
+    value: 1000
+  - key: SHORT_VARIABLE_NAME
+    value: 1
+  - key: CYCLOMATIC_COMPLEXITY
+    value: 20
+
+disable-rules:
+  - AssignIvarOutsideAccessors
+  - UnusedMethodParameter

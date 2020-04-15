@@ -7,7 +7,25 @@
 		<key>HexagonDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>18</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04C855712265A8D2001AF470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04C855892265A8D6001AF470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04C855942265A8D6001AF470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
